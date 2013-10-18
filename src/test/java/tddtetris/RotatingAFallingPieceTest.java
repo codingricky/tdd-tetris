@@ -6,12 +6,20 @@ package tddtetris;
 
 import net.orfjackal.nestedjunit.NestedJUnit4;
 import org.junit.Assert;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(NestedJUnit4.class)
 public class RotatingAFallingPieceTest extends Assert {
 
     // TODO: a falling piece can be rotated clockwise
+    public class A_falling_piece {
+        @Test
+        public void can_be_rotated_clockwise() {
+            
+        }
+    }
+
     // TODO: a falling piece can be rotated counter-clockwise
     // TODO: it can not be rotated when there is no room to rotate (left wall, right wall, other pieces...)
 
