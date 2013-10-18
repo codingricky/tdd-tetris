@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class Piece {
+    
     private List<Point> points;
     private Point centrePoint;
     private int maxX;

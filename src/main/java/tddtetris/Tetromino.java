@@ -53,17 +53,17 @@ public class Tetromino implements Blockable {
             ".L.\n" +
             ".LL\n"),
             new Piece("" +
-            "...\n" +
-            "LLL\n" +
-            "L..\n"),
+                    "...\n" +
+                    "LLL\n" +
+                    "L..\n"),
             new Piece("" +
-            "LL.\n" +
-            ".L.\n" +
-            ".L.\n"),
+                    "LL.\n" +
+                    ".L.\n" +
+                    ".L.\n"),
             new Piece("" +
-            "..L\n" +
-            "LLL\n" +
-            "...\n"));
+                    "..L\n" +
+                    "LLL\n" +
+                    "...\n"));
 
 
     public static final Tetromino J_SHAPE = new Tetromino(2, new Piece("" +
